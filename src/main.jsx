@@ -2,9 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+import ShopContextProvider from './Components/Context/ShopContext.jsx'
+const root =ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+ <ShopContextProvider>
     <App />
-  </React.StrictMode>,
+ </ShopContextProvider>
+
 )

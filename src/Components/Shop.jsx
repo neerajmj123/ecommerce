@@ -1,11 +1,13 @@
 import React from "react";
-import Products from "./Products";
-import TopProducts from "./TopProducts";
+import Hero from "./Hero/Hero";
+import Popular from "./Popular/Popular";
+import NewCollection from "./NewCollection/NewCollection";
 const Shop =()=>{
     return(
         <div>
-          <Products/>
-          <TopProducts/>
+          <Hero/>
+          <NewCollection/>
+          <Popular/>
         </div>
     )
 }

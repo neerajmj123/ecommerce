@@ -9,6 +9,10 @@ export default {
       colors:{
         primary:"#fea928",
         secondary:"#ed8900",
+        tertiory:"#FEBE10"
+  },
+  margin:{
+    '130': '130px',
   },
   container: {
     center: true,
